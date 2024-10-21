@@ -12,60 +12,44 @@ export const headerData = {
       links: [
         {
           text: 'Thay Lời Tựa',
-          href: getPermalink('/LoiTua'),
+          href: getPermalink('/tho/LoiTua'),
         },
         {
-          text: 'Services',
-          href: getPermalink('/services'),
+          text:"Lời Giới Thiệu",
+          href: getPermalink('/tho/LoiGioiThieu'),
         },
         {
-          text: 'Pricing',
-          href: getPermalink('/pricing'),
+          text: 'Lời Bạt',
+          href: getPermalink('/tho/LoiBat'),
         },
         {
-          text: 'About us',
-          href: getPermalink('/about'),
+          text: 'THƠ NGÀ NGỌC',
+          href: getPermalink('/tho/ThoNgaNgoc'),
         },
         {
-          text: 'Contact',
-          href: getPermalink('/contact'),
+          text: 'CHẮP ÂN TÌNH',
+          href: getPermalink('/tho/ChapAnTinh'),
+        } ,
+        {
+          text: 'THƠ GAI GÓC',
+          href: getPermalink('/tho/ThoGaiGoc'),
         },
         {
-          text: 'Terms',
-          href: getPermalink('/terms'),
-        },
-        {
-          text: 'Privacy policy',
-          href: getPermalink('/privacy'),
+          text: 'THƠ KHÔNG BIÊN GIỚI',
+          href: getPermalink('/tho/ThoKhongBienGioi'),
         },
       ],
     },
     {
-      text: 'Landing',
+      text: 'Music',
       links: [
         {
-          text: 'Lead Generation',
-          href: getPermalink('/landing/lead-generation'),
+          text: 'Đến Nghe Em',
+          href: getPermalink('/nhac/DenNgheEm'),
         },
         {
-          text: 'Long-form Sales',
-          href: getPermalink('/landing/sales'),
-        },
-        {
-          text: 'Click-Through',
-          href: getPermalink('/landing/click-through'),
-        },
-        {
-          text: 'Product Details (or Services)',
-          href: getPermalink('/landing/product'),
-        },
-        {
-          text: 'Coming Soon or Pre-Launch',
-          href: getPermalink('/landing/pre-launch'),
-        },
-        {
-          text: 'Subscription',
-          href: getPermalink('/landing/subscription'),
+          text: 'Quán Cỏ',
+          href: getPermalink('/nhac/QuanCo'),
         },
       ],
     },
@@ -99,7 +83,7 @@ export const headerData = {
       href: '#',
     },
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
+  //actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
 };
 
 export const footerData = {
