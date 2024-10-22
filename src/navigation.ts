@@ -8,14 +8,14 @@ export const headerData = {
     },
     {
       text: 'Tho',
-      buttonHref: "/tho",
+      buttonHref: '/tho',
       links: [
         {
           text: 'Thay Lời Tựa',
           href: getPermalink('/tho/LoiTua'),
         },
         {
-          text:"Lời Giới Thiệu",
+          text: 'Lời Giới Thiệu',
           href: getPermalink('/tho/LoiGioiThieu'),
         },
         {
@@ -29,7 +29,7 @@ export const headerData = {
         {
           text: 'CHẮP ÂN TÌNH',
           href: getPermalink('/tho/ChapAnTinh'),
-        } ,
+        },
         {
           text: 'THƠ GAI GÓC',
           href: getPermalink('/tho/ThoGaiGoc'),
