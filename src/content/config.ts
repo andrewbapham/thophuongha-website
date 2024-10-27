@@ -63,6 +63,16 @@ const postCollection = defineCollection({
   }),
 });
 
+const ChapAnTinhCollection = defineCollection({
+  schema: z.object({
+    title: z.string(),
+    category: z.string().optional(),
+    tags: z.array(z.string()).optional(),
+    metadata: metadataDefinition(),
+  }),
+});
+
 export const collections = {
   post: postCollection,
+  ChapAnTinh: ChapAnTinhCollection,
 };
