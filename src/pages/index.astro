@@ -1,36 +1,37 @@
 ---
-import Layout from '~/layouts/PageLayout.astro';
+import Layout from "~/layouts/PageLayout.astro";
 
-import Hero from '~/components/widgets/Hero.astro';
-import Features from '~/components/widgets/Features.astro';
-import Content from '~/components/widgets/Content.astro';
+import Hero from "~/components/widgets/Hero.astro";
+import Features from "~/components/widgets/Features.astro";
+import Content from "~/components/widgets/Content.astro";
 
 const metadata = {
-  title: 'AstroWind — Free template for creating websites with Astro + Tailwind CSS',
-  ignoreTitleTemplate: true,
+	title:
+		"AstroWind — Free template for creating websites with Astro + Tailwind CSS",
+	ignoreTitleTemplate: true,
 };
 ---
 
 <Layout metadata={metadata}>
-  <!-- Hero Widget ******************* -->
+	<!-- Hero Widget ******************* -->
 
-  <Hero image={{ src: '~/assets/images/author.png', alt: 'Author Image' }}>
-    <Fragment slot="title"> Tho Phuong Ha </Fragment>
+	<Hero image={{ src: "~/assets/images/author.png", alt: "Author Image" }}>
+		<Fragment slot="title"> Tho Phuong Ha </Fragment>
 
-    <Fragment slot="subtitle"> In loving memory of Ong Ngoi </Fragment>
-  </Hero>
+		<Fragment slot="subtitle"> In loving memory of Ong Ngoai </Fragment>
+	</Hero>
 
-  <!-- Note Widget ******************* -->
+	<!-- Note Widget ******************* -->
 
-  <!-- Features Widget *************** -->
+	<!-- Features Widget *************** -->
 
-  <Features />
+	<Features />
 
-  <!-- Content Widget **************** -->
+	<!-- Content Widget **************** -->
 
-  <Content />
-  <!-- Content Widget **************** -->
-  <Content />
+	<Content />
+	<!-- Content Widget **************** -->
+	<Content />
 </Layout>
 
 <!-- Content Widget **************** -->
