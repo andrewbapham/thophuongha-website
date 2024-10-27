@@ -1,0 +1,23 @@
+---
+import Layout from "~/layouts/PageLayout.astro";
+import Image from "~/components/common/Image.astro";
+import { getPermalink } from "~/utils/permalinks";
+---
+
+<Layout>
+	<div class="content-center text-center mx-48">
+		<Image
+			src="~/assets/images/ThoPhuongHa.png"
+			alt="Author Image"
+			class={"mx-auto"}
+		/>
+		<div class="text-center">
+			<h1 class="my-12 text-4xl">Tho Phuong Ha</h1>
+			<ul>
+				<li class="underline">
+					<a href={getPermalink("/tho/LoiTua")}>Loi Tua</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</Layout>
